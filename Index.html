@@ -1,225 +1,212 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❤️ Estêvão & Eduarda ❤️</title>
 
-<title>Estêvão ❤️ Eduarda</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-<style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #5b0f1a;
+            color: #ffffff;
+            line-height: 1.6;
+        }
 
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
-}
+        header {
+            background: #7a1025;
+            text-align: center;
+            padding: 60px 20px;
+        }
 
-body{
-background:#5b0f1a;
-color:white;
-}
+        header h1 {
+            font-size: 45px;
+            margin-bottom: 10px;
+        }
 
-header{
-background:#7a1025;
-padding:60px 20px;
-text-align:center;
-}
+        header p {
+            font-size: 20px;
+        }
 
-header h1{
-font-size:45px;
-margin-bottom:10px;
-}
+        section {
+            padding: 50px 20px;
+        }
 
-header p{
-font-size:20px;
-}
+        .titulo {
+            text-align: center;
+            font-size: 34px;
+            margin-bottom: 30px;
+        }
 
-section{
-padding:40px 20px;
-}
+        .galeria {
+            max-width: 1200px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
 
-.titulo{
-text-align:center;
-font-size:35px;
-margin-bottom:30px;
-color:#fff;
-}
+        .galeria img {
+            width: 100%;
+            border-radius: 18px;
+            border: 4px solid #fff;
+            transition: 0.4s;
+            box-shadow: 0 8px 20px rgba(0,0,0,.3);
+        }
 
-.galeria{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
-max-width:1200px;
-margin:auto;
-}
+        .galeria img:hover {
+            transform: scale(1.05);
+        }
 
-.galeria img{
-width:100%;
-border-radius:18px;
-border:4px solid white;
-transition:.4s;
-}
+        .video {
+            text-align: center;
+        }
 
-.galeria img:hover{
-transform:scale(1.05);
-}
+        .video video {
+            width: 90%;
+            max-width: 700px;
+            border-radius: 20px;
+            border: 4px solid white;
+            box-shadow: 0 8px 20px rgba(0,0,0,.3);
+        }
 
-.video{
-text-align:center;
-}
+        .carta {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #ffffff;
+            color: #5b0f1a;
+            padding: 35px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,.4);
+        }
 
-.video video{
-width:90%;
-max-width:700px;
-border-radius:20px;
-border:4px solid white;
-}
+        .carta h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
 
-.carta{
+        .carta p {
+            font-size: 20px;
+            text-align: justify;
+        }
 
-max-width:900px;
-margin:40px auto;
-background:white;
-color:#5b0f1a;
-padding:35px;
-border-radius:20px;
-box-shadow:0 0 20px rgba(0,0,0,.4);
+        footer {
+            background: #7a1025;
+            text-align: center;
+            padding: 30px 20px;
+        }
 
-}
+        footer h2 {
+            font-size: 32px;
+        }
 
-.carta h2{
-text-align:center;
-margin-bottom:20px;
-}
+        footer p {
+            margin-top: 10px;
+            font-size: 18px;
+        }
 
-.carta p{
-font-size:20px;
-line-height:1.9;
-text-align:justify;
-}
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 34px;
+            }
 
-footer{
+            .titulo {
+                font-size: 28px;
+            }
 
-background:#7a1025;
-text-align:center;
-padding:30px;
-
-}
-
-footer h2{
-font-size:35px;
-}
-
-footer p{
-margin-top:10px;
-font-size:18px;
-}
-
-</style>
-
+            .carta p {
+                font-size: 18px;
+            }
+        }
+    </style>
 </head>
 
 <body>
 
 <header>
-
-<h1>❤️ Estêvão & Eduarda ❤️</h1>
-
-<p>Uma linda história de amor iniciada em 20/06/2026.</p>
-
+    <h1>❤️ Estêvão & Eduarda ❤️</h1>
+    <p>Uma linda história de amor iniciada em 20/06/2026.</p>
 </header>
 
 <section>
+    <h2 class="titulo">📸 Nossos Momentos</h2>
 
-<h2 class="titulo">📸 Nossos Momentos</h2>
-
-<div class="galeria">
-
-<img src="Foto1.jpg">
-
-<img src="Foto2.jpg">
-
-<img src="Foto3.jpg">
-
-<img src="Foto4.jpg">
-
-<img src="Foto5.jpg">
-
-</div>
-
+    <div class="galeria">
+        <img src="Foto1.jpg" alt="Foto 1" loading="lazy">
+        <img src="Foto2.jpg" alt="Foto 2" loading="lazy">
+        <img src="Foto3.jpg" alt="Foto 3" loading="lazy">
+        <img src="Foto4.jpg" alt="Foto 4" loading="lazy">
+        <img src="Foto5.jpg" alt="Foto 5" loading="lazy">
+    </div>
 </section>
 
 <section class="video">
+    <h2 class="titulo">🎥 Nosso Vídeo</h2>
 
-<h2 class="titulo">🎥 Nosso Vídeo</h2>
-
-<video controls>
-
-<source src="Vídeo1.mp4" type="video/mp4">
-
-</video>
-
+    <video controls>
+        <source src="Video1.mp4" type="video/mp4">
+        Seu navegador não suporta vídeos.
+    </video>
 </section>
 
-<div class="carta">
+<section class="carta">
+    <h2>💌 Carta para Eduarda 💌</h2>
 
-<h2>💌 Carta para Eduarda 💌</h2>
+    <p>
+        Meu amor, Eduarda...
+        <br><br>
 
-<p>
+        Desde o dia <strong>20/06/2026</strong>, minha vida ficou mais bonita porque você passou a fazer parte dela.
+        <br><br>
 
-Meu amor, Eduarda...
+        Cada sorriso seu ilumina meus dias, cada abraço me faz sentir que encontrei o meu lugar e cada momento ao seu lado é uma lembrança que guardo com carinho.
+        <br><br>
 
-Desde o dia <b>20/06/2026</b>, minha vida ficou mais bonita porque você passou a fazer parte dela.
+        Você é a pessoa que eu escolho amar todos os dias.
+        <br><br>
 
-Cada sorriso seu ilumina meus dias, cada abraço me faz sentir que encontrei o meu lugar, e cada momento ao seu lado é uma lembrança que guardo com carinho.
+        Quero viver muitos momentos ao seu lado, realizar nossos sonhos, construir nossa história e fazer você feliz.
+        <br><br>
 
-Você é a pessoa que eu escolho amar todos os dias.
+        Obrigado por ser essa mulher maravilhosa, por cuidar de mim, por me fazer sorrir e por tornar minha vida muito melhor.
+        <br><br>
 
-Quero viver muitos momentos ao seu lado, realizar nossos sonhos, construir nossa história e fazer você feliz.
+        Meu coração é seu.
+        <br><br>
 
-Obrigado por ser essa mulher maravilhosa, por cuidar de mim, por me fazer sorrir e por tornar minha vida muito melhor.
+        Eu te amo hoje, amanhã e para sempre.
+        <br><br>
 
-Meu coração é seu.
+        Com todo meu amor,
+        <br><br>
 
-Eu te amo hoje, amanhã e para sempre.
+        ❤️ Estêvão ❤️
+    </p>
+</section>
 
-Com todo meu amor,
+<section class="carta">
+    <h2>🌹 Minha Promessa 🌹</h2>
 
-❤️ Estêvão ❤️
+    <p>
+        Prometo cuidar do seu coração.<br>
+        Prometo estar ao seu lado nos momentos bons e difíceis.<br>
+        Prometo nunca desistir de nós.<br><br>
 
-</p>
+        Que Deus continue abençoando nosso relacionamento e que nossa história seja eterna.<br><br>
 
-</div>
-
-<div class="carta">
-
-<h2>🌹 Minha Promessa 🌹</h2>
-
-<p>
-
-Prometo cuidar do seu coração.
-
-Prometo estar ao seu lado nos momentos bons e difíceis.
-
-Prometo nunca desistir de nós.
-
-Que Deus continue abençoando nosso relacionamento e que nossa história seja eterna.
-
-Eu amo você infinitamente.
-
-❤️
-
-</p>
-
-</div>
+        Eu amo você infinitamente. ❤️
+    </p>
+</section>
 
 <footer>
-
-<h2>❤️ Estêvão & Eduarda ❤️</h2>
-
-<p>Juntos desde 20/06/2026 ♾️</p>
-
+    <h2>❤️ Estêvão & Eduarda ❤️</h2>
+    <p>Juntos desde 20/06/2026 ♾️</p>
 </footer>
 
 </body>
